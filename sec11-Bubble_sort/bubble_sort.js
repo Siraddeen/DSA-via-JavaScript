@@ -2,8 +2,7 @@
 
 A sorting algorithm where the largest values bubble up to the top!
 
-
- goto this this website 
+ goto this this website
  for visually see how bubble sort work
  https://visualgo.net/en/sorting
 */
@@ -59,7 +58,7 @@ function bubleSwap(arr) {
     noswap = true;
 
     for (let j = 0; j < i - 1; j++) {
-      console.log(arr, arr[j], arr[j + 1]);
+      //console.log(arr, arr[j], arr[j + 1]);
       if (arr[j] > arr[j + 1]) {
         let swa = arr[j];
         arr[j] = arr[j + 1];
@@ -72,5 +71,5 @@ function bubleSwap(arr) {
   return arr;
 }
 
-let u = bubleSwap([7, 1, 2, 3, 4]);
+let u = bubleSwap([12, 54, 2, 8, 45, 3]);
 console.log(u);
